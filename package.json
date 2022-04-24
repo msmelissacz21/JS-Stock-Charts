@@ -2,13 +2,16 @@
   "name": "5.7.5-activity",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "index.mjs",
   "scripts": {
     "start": "live-server ./public"
   },
   "author": "",
   "license": "",
   "dependencies": {
+    "chart.js": "^3.7.1",
+    "express": "^4.17.3",
     "live-server": "^1.2.1"
-  }
+  },
+  "type": "module"
 }
